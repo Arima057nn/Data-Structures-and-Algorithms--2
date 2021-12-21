@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1464769448 source:/home/tmd/Desktop/de/BTL_TRR/p.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jrb.h"
+	"dllist.h"
+
+979678704 /home/tmd/Desktop/de/BTL_TRR/jrb.h
+	"jval.h"
+
+979678722 /home/tmd/Desktop/de/BTL_TRR/jval.h
+
+1460082789 /home/tmd/Desktop/de/BTL_TRR/dllist.h
+	"jval.h"
+
+1464772269 source:/home/tmd/Desktop/de/BTL_TRR/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jrb.h"
+	"dllist.h"
+

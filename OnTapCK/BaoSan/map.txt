@@ -1,0 +1,22 @@
+8 13
+129 NguyenQuangHuy
+212 TranVanBac
+312 NguyenQuocPhong
+133 LeThiHa
+432 NguyenThiThu
+298 BuiQuangToan
+0 Cho
+111 PhungVanMinh
+129 212 7
+129 312 8
+312 133 7
+312 212 9
+312 432 4
+212 432 10
+212 111 7
+133 432 8
+111 432 4
+111 0 5
+432 0 5
+298 0 4
+432 298 6

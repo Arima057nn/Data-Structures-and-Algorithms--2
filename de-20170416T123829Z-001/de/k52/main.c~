@@ -1,0 +1,75 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "jrb.h"
+#include "dllist.h"
+
+#define VOCUC 9999
+#define size 6
+
+typedef struct Graph
+{
+    JRB Egde;
+    JRB Vertex;
+}Graph;
+
+Graph createGraph();
+
+void readFile(Graph graph, FILE *taptin)
+{
+    char str[100];
+    char *tmp1, *tmp2;
+	int i1, space;
+int z;
+
+    for(; fgets(str, 98, taptin) != NULL; )
+    {
+        str[strlen(str) - 1] = '\0';
+        tmp1 = strstr(str, " ");
+        *tmp1 = '\0';
+        printf("'%s': ", str);
+        tmp1 += 3;
+        //printf("-'%s'\t", tmp1);
+        
+        for(i1 = 0, space = 0; i1 < strlen(tmp1); i1++)
+        {
+        	if(tmp1[i1] == ' ') space++;
+        
+        }
+        //printf("space: %d\n", space);
+        tmp2 = tmp1;
+        for(i1 = 0; i1 < space; i1++)
+        {
+        	tmp1 = strstr(tmp1, " ");
+        	*tmp1 = '\0';
+        	tmp1++;
+        	printf("'%s' ", tmp2);
+        	tmp2 = tmp1;
+        }
+        printf("'%s'\n", tmp2);
+    }
+
+}
+
+int main()
+{
+    FILE *taptin = fopen("input.txt", "r+");
+    if(taptin == NULL)
+    {
+        printf("EROOR\n");
+        exit(1);
+    }
+    Graph graph = createGraph();
+    readFile(graph, taptin);
+}
+
+
+Graph createGraph()
+{
+    Graph graph;
+    graph.Egde = make_jrb();
+    graph.Vertex = make_jrb();
+    return graph;
+}
+
+

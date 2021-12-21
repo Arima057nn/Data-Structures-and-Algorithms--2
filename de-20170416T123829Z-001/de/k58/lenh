@@ -1,0 +1,22 @@
+./main help							1
+./main about						2
+./main i2n input.txt id				3
+./main n2i input.txt item_name		5
+./main cc input.txt i j				7
+./main cr input.txt i j				8
+./main odg input.txt k				6
+./main rel input.txt u				4
+
+
+./main help							1
+./main about						2
+./main i2n input.txt 5				3
+./main n2i input.txt Omega			5
+./main cc input.txt 1 3				7
+./main cr input.txt 5 8				8
+./main odg input.txt 0				6
+./main rel input.txt 5				4
+
+
+
+

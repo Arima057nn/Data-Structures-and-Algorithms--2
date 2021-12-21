@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1461524380 source:/home/tmd/Desktop/de/khoa1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jrb.h"
+	"dllist.h"
+
+979678704 /home/tmd/Desktop/de/khoa1/jrb.h
+	"jval.h"
+
+979678722 /home/tmd/Desktop/de/khoa1/jval.h
+
+1460082789 /home/tmd/Desktop/de/khoa1/dllist.h
+	"jval.h"
+
+1461524380 source:/home/tmd/Desktop/de/khoa1/Cach1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jrb.h"
+	"dllist.h"
+
+979678704 /home/tmd/Desktop/de/khoa1/Cach1/jrb.h
+	"jval.h"
+
+979678722 /home/tmd/Desktop/de/khoa1/Cach1/jval.h
+
+1460082789 /home/tmd/Desktop/de/khoa1/Cach1/dllist.h
+	"jval.h"
+

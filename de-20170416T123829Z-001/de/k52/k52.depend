@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1464282155 source:/home/tmd/Desktop/de/k52/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jrb.h"
+	"dllist.h"
+
+979678704 /home/tmd/Desktop/de/k52/jrb.h
+	"jval.h"
+
+979678722 /home/tmd/Desktop/de/k52/jval.h
+
+1460082789 /home/tmd/Desktop/de/k52/dllist.h
+	"jval.h"
+

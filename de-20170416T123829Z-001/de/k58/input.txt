@@ -1,0 +1,12 @@
+5 6
+NhucBoDoan 1
+KimBinhMai 3
+SacGioi 5
+50SacThai 8
+Kamasutra 100
+1 5
+3 5
+1 8
+3 8
+5 100
+100 1

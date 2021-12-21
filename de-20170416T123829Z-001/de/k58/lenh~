@@ -1,0 +1,17 @@
+./main help							1
+
+./main about						2
+
+./main i2n file_name id				3
+
+./main n2i file_name item_name		5
+
+./main cc file_name i j				7
+
+./main cr file_name i j				8
+
+./main odg file_name k				6
+
+./main rel file_name u				4
+
+
